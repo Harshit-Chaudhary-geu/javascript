@@ -32,3 +32,4 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumb);
+console.log(typeof couples);
