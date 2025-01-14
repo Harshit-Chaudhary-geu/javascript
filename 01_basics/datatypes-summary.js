@@ -33,3 +33,34 @@ const myFunction = function(){
 
 console.log(typeof bigNumb);
 console.log(typeof couples);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive) , Heap(Non-Primitive)
+
+//stack -  copy of file is shared over here
+
+let myYoutubeName = "_harshitchaudhary"
+
+let anotherName = myYoutubeName
+
+anotherName = "harsh"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+// heap - refrence is shared over here
+
+let user1 = {
+    email: "xyz@google.com",
+    upi: "user1@ybl"
+}
+
+let user2 = user1
+
+user2.email = "abc@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
