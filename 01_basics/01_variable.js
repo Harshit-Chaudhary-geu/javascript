@@ -2,7 +2,7 @@ const accountId = 144553
 let accountEmail = "harsh@google.com"
 var accountPassword = "12345" // var is not used bcz of no scope 
 accountCity = "Jaipur"
-let accountState;
+let accountState;// undefined
 
 // accountId = 2 // not allowed
 accountEmail = "hc@hc.com"
