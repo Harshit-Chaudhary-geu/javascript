@@ -22,7 +22,7 @@ let booleanIsLoggedIn = Boolean(isloggedIn)
 // console.log(booleanIsLoggedIn);
 
 // 1 => true, 0 => false
-// "" => false
+// "" => false 
 // "harsh" => true
 
 // ******************** Operations **************************
@@ -42,8 +42,8 @@ let str3 = str1 + str2
 // console.log(1+2+"2")
 // console.log(3.2+2.4)
 
-// console.log(true)
-// console.log(+true)
+// console.log(true) 
+// console.log(+true)// 1 over here we the value of true if +false is written it gives false value which is 0
 
 let num1, num2, num3
 

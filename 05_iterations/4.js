@@ -16,13 +16,12 @@ for (const key in program) {
     //console.log(program[key])
 }
 
-const map = new Map()
+const map = new Map()// it is not iterratable
 map.set("IN", "INDIA")
 map.set("USA", "UNITED STATES OF AMERICA")
 map.set("FR", "FRANCE")
 map.set("IN", "INDIA")
 
 for (const key in map) {
-    console.log(key);
-    
+    //console.log(key);  
 }

@@ -13,7 +13,10 @@ while (arr < myArray.length){
     //console.log(`Values in myArray are ${myArray[arr]}`);
     arr++ 
 }
+
+
 let score = 11
+
 do {
     console.log(`Score is ${score}`)
     score++
