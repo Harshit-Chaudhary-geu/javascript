@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+</head>
+<body style="background-color: #212121; color: aliceblue;">
+    <h1>Chai aur JS</h1>
+    <button id = "start">Start</button>
+    <button id = "stop">Stop</button>
+</body>
+<script>
+    let intervalId;
+
+    const startHi = function (){
+        const sayHi = function(e){
+            console.log(e,Date.now())
+        }
+        intervalId = setInterval(sayHi,1000,"hi")
+    }
+
+    const stopHi = function(){
+        clearInterval(intervalId)
+    }
+
+    document.getElementById("start").addEventListener('click',startHi)
+    document.getElementById("stop").addEventListener('click',stopHi)
+    
+</script>
+</html>
